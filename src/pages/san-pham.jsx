@@ -10,6 +10,7 @@ export const ProductPage = () => {
         `?fields=name,real_price,price,categories,slug,id`
       ),
   });
+  console.log('data', data)
   if (loading) return null;
   return (
     <section className="py-11">
